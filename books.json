@@ -1,0 +1,140 @@
+{"books":[
+	{"id":1, "title":"Graham Henry", "category":"biography", "author":"Bob Howitt", 
+	"desc":
+
+"Explosive and controversial - this is the must-read autobiography of one of the world's most successful sporting coaches. Although he would eventually be knighted in recognition of one of the most remarkable coaching careers in the history of rugby, Graham Henry experienced his share of crushing setbacks and disappointments. this was the man responsible for restoring the glory days of the All Blacks and reinvigorating the spirits of an entire nation, but also the one held accountable for a disastrous 2007 World Cup campaign. When the team crashed out, humiliatingly at the quarter-final stage, Sir Graham thought his time as an international rugby coach was up. the New Zealand Rugby Union had never reappointed a losing World Cup coach, and he couldn't see why they would make an exception for him. that is, until he began preparing his coach's report, which involved a detailed analysis of the video of that fateful quarter-final. What he witnessed initially caused him to vomit, then to reassess his future. His findings and insights ultimately led to his reappointment. In this book, Henry reveals that as a rugby coach he was always more tactical than technical. In partnership with Wayne Smith and Steve Hansen, he would go on to rebuild the All Blacks as the most triumphant and entertaining team in the world. Sir Graham is rugby's most successful coach having maintained an almost unbelievable 83 per cent success rate across four decades and more than 500 matches from schoolboy to international level. Now retired, he has teamed up with New Zealand's most prolific rugby author, Bob Howitt, to relate his personal account of the drastic measures he took to change the culture within the All Blacks and set them on the path to becoming world champions. ", 
+	
+	"popularity":"high", "onsale":"yes", "price":24.99, "img":"book1.jpg"},
+	
+	{"id":2, "title":"Running Man", "category":"biography", "author":"Charlie Engle",
+	"desc":
+
+"After a decade-long addiction to crack cocaine and alcohol, Charlie Engle hit rock bottom after a near-fatal six-day binge ended in a hail of bullets. Then he found running, and it has helped keep him sober, focused and alive. He began to take on the most extreme endurance races, such as the 155-mile Gobi March, and developed a reputation as an inspirational speaker. However, after he made the documentary Running the Sahara, narrated by Matt Damon, which followed him on a 4500-mile crossing of the desert and helped raise $6 million, he was sent to prison after failing to complete his mortgage application properly. ", 
+	
+	"popularity":"high", "onsale":"no", "price":27.03, "img":"book2.jpg"},
+	
+	{"id":3, "title":"Working Class Boy", "category":"biography", "author":"Jimmy Barnes",
+	"desc":
+
+"Long before Cold Chisel, long before 'Barnesy', there was the true story of James Dixon Swan\n A household name, an Australian rock icon, the elder statesman of Ozrock - there isn't an accolade or cliche that doesn't apply to Jimmy Barnes. But long before Cold Chisel and 'Barnesy', long before the tall tales of success and excess, there was the true story of James Dixon Swan - a working class boy whose family made the journey from Scotland to Australia in search of a better life. ", 
+	
+	"popularity":"high", "onsale":"yes", "price":25.00, "img":"book3.jpg"}, 
+	
+	{"id":4, "title":"Ron Jeremy", "category":"biography", "author":"Ron Jeremy",
+	"desc":
+
+"He's the porn world's Everyman. Blessed with an enormous 'talent' yet average looks, he's starred in more than 1,700 adult films, directed 250 of them, and over the last twenty years has become porn's biggest ambassador to the mainstream. He's appeared in 60 regular films, 14 music videos, and VH1's Surreal Life, starred in the critically acclaimed Porn star (a movie about his life), and in Being Ron Jeremy (a take off on Being John Malkovich), co-starring Andy Dick. And that's just the tip of the iceberg. . . .  ", 
+	
+	"popularity":"normal", "onsale":"yes", "price":15.99, "img":"book4.jpg"}, 
+	
+	{"id":5, "title":"Rod: The Autobiography", "category":"biography", "author":"Rod Stewart",
+	"desc":
+
+"Rod Stewart was born the working-class son of a Scottish plumber in North London. Despite some early close shaves with a number of diverse career paths, ranging from gravedigging to professional football, it was music that truly captured his heart – and he never looked back. ", 
+	
+	"popularity":"normal", "onsale":"yes", "price":11.86, "img":"book5.jpg"}, 
+	
+	{"id":6, "title":"Talk Like TED", "category":"business", "author":"Carmine Gallo",
+	"desc":
+
+"TED talks have redefined the elements of a successful presentation and become the gold standard for public speaking around the world. TED and associated Tedx conferences are held in more than 130 countries and are being viewed at a rate of 1.5 million times a day. These are presentations that set the world on fire, and the techniques that top TED speakers use are the same ones that will make any presentation more dynamic, fire up any team, and give anyone the confidence to overcome their fear of public speaking.  ", 
+	
+	"popularity":"high", "onsale":"no", "price":15.99, "img":"book6.jpg"}, 
+	
+	{"id":7, "title":"The 50th Law", "category":"business", "author":"Robert Greene",
+	"desc":
+
+"The ultimate hustle is to move freely between the street and corporate worlds, to find your flow and never stay locked in the same position. This is a manifesto for how to operate in the twenty-first century, where everything has been turned on its head. Building on the runaway success of Robert Greene's The 48 Laws of Power (almost five million copies sold), the 'modern Machiavelli' teams up with rapper 50 Cent to show how the power game of success can be played to your advantage.   ", 
+	
+	"popularity":"high", "onsale":"yes", "price":18.99, "img":"book7.jpg"}, 
+	
+	{"id":8, "title":"The Phoenix Project", "category":"business", "author":"Gene Kim",
+	"desc":
+
+"The company's new IT initiative, code named Phoenix Project, is critical to the future of Parts Unlimited, but the project is massively over budget and very late. The CEO wants Bill to report directly to him and fix the mess in ninety days or else Bill's entire department will be outsourced.  ", 
+	
+	"popularity":"high", "onsale":"yes", "price":19.99, "img":"book8.jpg"}, 
+	
+	{"id":9, "title":"Predictably Irrational", "category":"business", "author":"Instaread",
+	"desc":
+
+"Predictably Irrational provides a data-driven window into the ways in which the human mind fails to make rational choices time and time again. While some of these irrational decisions are humorous or trivial, in many cases, these behaviors can have far-ranging implications for governments and health care systems. However, understanding that we, as humans, are predisposed to making irrational decisions is the first step to preventing these behaviors and overcoming the foibles of our minds. ", 
+	
+	"popularity":"normal", "onsale":"yes", "price":11.99, "img":"book9.jpg"}, 
+	
+	{"id":10, "title":"Location Science", "category":"business", "author":"Gilbert Laporte",
+	"desc":
+
+"This comprehensive and clearly structured book presents essential information on modern Location Science. The book is divided into three parts: basic concepts, advanced concepts and applications. Written by the most respected specialists in the field and thoroughly reviewed by the editors, it first lays out the fundamental problems in Location Science and provides the reader with basic background information on location theory. Part II covers advanced models and concepts, broadening and expanding on the content presented in Part I. It provides the reader with important tools to help them understand and solve real-world location problems. Part III is dedicated to linking Location Science with other areas like GIS, telecommunications, healthcare, rapid transit networks, districting problems and disaster events, presenting a wide range of applications. This part enables the reader to understand the role of facility location in such areas, as well as to learn how to handle realistic location problems. ", 
+	
+	"popularity":"normal", "onsale":"yes", "price":7.99, "img":"book10.jpg"}, 
+	
+	{"id":11, "title":"Sweet! Celebrations", "category":"cooking and food", "author":"Elise Strachan",
+	"desc":
+
+"The creator and host of My Cupcake Addiction--one of the world's most widely viewed online baking shows--shares her most dazzling and delicious dessert recipes and ingenious entertaining tips so you can throw the perfect party. ", 
+	
+	"popularity":"high", "onsale":"yes", "price":8.99, "img":"book11.jpg"}, 
+	
+	{"id":12, "title":"Spices: A Global History", "category":"cooking and food", "author":"Fred Czarra",
+	"desc":
+
+"The scent of oregano immediately conjures the comforts of Italian food, curry is synonymous with Indian flavor, and the fire of chili peppers ignites the cuisine of Latin America. Spices are often the overlooked essentials that define our greatest eating experiences. In this global history of spices, Fred Czarra tracks the path of these fundamental ingredients from the trade routes of the ancient world to the McCormick’s brand’s contemporary domination of the global spice market.  ", 	
+	"popularity":"high", "onsale":"yes", "price":12.99, "img":"book12.jpg"}, 
+	
+	{"id":13, "title":"50 Great Appetizers", "category":"cooking and food", "author":"Pamela Sheldon Johns",
+	"desc":
+
+"Starters, amuses-bouche, antipasti, hors d'oeuvres, mezes, antojitos, dim sum, tapas, canapes, finger foods--no matter what you call them, people everywhere are choosing small plates over traditional entree-based meals. ", 
+	
+	"popularity":"high", "onsale":"yes", "price":15.99, "img":"book13.jpg"}, 
+	
+	{"id":14, "title":"Trophy Cupcakes and Parties", "category":"cooking and food", "author":"Jennifer Shea",
+	"desc":
+
+"Seattle's favorite cupcake bakery, Trophy Cupcakes and Party, is adored for its mouthwatering cupcakes and charming party favors. It’s also the go-to place for anyone looking to throw a phenomenal celebration, and now their recipes and party secrets are yours in this essential guide for every occasion--from luxe soirées like a sparkling engagement celebration, or an exotic Moroccan-themed bash, to crafty kids' parties, such as a bike parade and picnic, or a forest fairy tea party. Inside are recipes for Trophy's most prized flavor--red velvet!--as well as their popular everyday flavors like salted caramel and triple chocolate, and unique ones such as piña colada, and a gluten-free orange almond rose. You’ll also get the basics on how to dream up party themes, create DIY crafts, as well as decorating and entertaining ideas, and insider baking and frosting tips, all from Trophy founder Jennifer Shea. ", 
+	
+	"popularity":"normal", "onsale":"yes", "price":14.99, "img":"book14.jpg"}, 
+	
+	{"id":15, "title":"Whiskey: A Global History", "category":"cooking and food", "author":"Kevin R. Kosar",
+	"desc":
+
+"A Manhattan or a Sazerac; neat, on the rocks, or with a splash of soda—no matter how it’s served up, whiskey is synonymous with the poet’s inspiration and the devil’s spirit. Be it bourbon, rye, corn, Irish, or Scotch, whiskey has an infamous and celebrated history from a sometimes lethal, herb-infused concoction to a high-quality, meticulously crafted liquor.  ", 
+	
+	"popularity":"normal", "onsale":"yes", "price":18.99, "img":"book15.jpg"}, 
+	
+	{"id":16, "title":"Introduction to New Zealand Animals", "category":"travel", "author":"Urban Napflin",
+	"desc":
+
+"It is incredible what interesting animals evolved in New Zealand - due to 80 million years of untouched and uninfluenced evolution! It's right up there with Galapagos and Australia. ", 
+	
+	"popularity":"high", "onsale":"yes", "price":20.99, "img":"book16.jpg"}, 
+	
+	{"id":17, "title":"The Life of Captain James Cook", "category":"travel", "author":"Arthur Kitson",
+	"desc":
+
+"James Cook, the Circumnavigator, was a native of the district of Cleveland, Yorkshire, but of his ancestry there is now very little satisfactory information to be obtained. Nichols, in his Topographer and Genealogist, suggests that 'James Cooke, the celebrated mariner, was probably of common origin with the Stockton Cookes.' His reason for the suggestion being that a branch of the family possessed a crayon portrait of some relation, which was supposed to resemble the great discoverer. He makes no explanation of the difference in spelling of the two names, and admits that the sailor's family was said to come from Scotland. ", 
+	
+	"popularity":"high", "onsale":"yes", "price":20.68, "img":"book17.jpg"}, 
+	
+	{"id":18, "title":"Wild, Beautiful Places", "category":"travel", "author":"National Geographic",
+	"desc":
+
+"Experience the world’s most wild, remote, beautiful places with shots by National Geographic photographers and vintage photos pulled from the National Geographic archives. Highlighting 50 of Earth’s most pristine, scenic locales, this beautiful book is illustrated with stunning images, coupled with accessible, engaging descriptions and practical travel information. The book covers everything from otherworldly, secluded valleys to far-flung, soaring mountain ranges. National Geographic photographers share some of their favorite shots from around the world and explain how they got them, and historical photos culled from National Geographic’s hallowed image archive highlight old Society explorations in rugged, distant locations, and give a glimpse into the bygone days of these exotic places. ", 
+	
+	"popularity":"high", "onsale":"yes", "price":15.68, "img":"book18.jpg"}, 
+	
+	{"id":19, "title":"Journey Through Singapore", "category":"travel", "author":"David Blocksidge",
+	"desc":
+
+"Through 160 color photographs and a concise, informative text, this handsome Singapore travel guide and pictorial presents all the excitement of Singapore—its rich colonial past, its ethnic diversity, and its dynamic present.  ", 
+	
+	"popularity":"normal", "onsale":"no", "price":18.68, "img":"book19.jpg"}, 
+	
+	{"id":20, "title":"Uneasy Rider", "category":"travel", "author":"Mike Bryan",
+	"desc":
+
+"in this offbeat and original road book, cultural observer Mike Bryan takes issue with the traditional idea that the 'real' America is to be found somewhere on our scenic backroads. He argues instead that it is right out in the open on the interstates, and he travels the big highways of the Southwest to prove the point.  ", 
+	
+	"popularity":"normal", "onsale":"yes", "price":32.68, "img":"book20.jpg"}
+]}

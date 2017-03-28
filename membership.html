@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang = "en">
+<head>
+	<title>Membership Signup</title>
+	<meta charset = "utf-8">
+	<meta name = "author" content = "Jianyang Zhang">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	<!-- MaxCDN for Bootstrap -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="persist-all-min.js"></script>
+    
+	<link rel = "stylesheet" href = "main.css" type = "text/css">
+    <script src = "books.js"></script>
+	<script src = "main.js"></script>
+	<base href="http://dochyper.unitec.ac.nz/iwd16s2/6161/zhangj188IWD/Assignment2/">
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script>
+	(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1835688779999089";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
+	
+	<div class = "container-fluid">
+		<div class = "page-header">
+			<h1>Membership Signup</h1>
+		</div>
+		
+		<nav class = "navbar navbar-inverse">
+			<div class = "navbar-header">
+				<button type = "button" class = "navbar-toggle" 
+					data-toggle = "collapse" data-target = "#MAIN_NAV_BAR">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+				<a class = "navbar-brand" href = "#">Auckland City Books</a>
+			</div>
+			<div class = "collapse navbar-collapse" id = "MAIN_NAV_BAR">
+				<ul class = "nav navbar-nav">
+					<li><a href = "index.html">Home</a></li>
+					<li><a href = "products.html">Products</a></li>
+					<li class = "active"><a href = "#">Membership</a></li>
+					<li><a href = "about.html">About</a></li>
+				</ul>
+			</div>
+		</nav>
+		
+		<div class = "row">
+			<div class = "left col-md-2">
+				<div class="fb-page" data-href="https://www.facebook.com/aucklandlibraries/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/aucklandlibraries/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/aucklandlibraries/">Auckland Libraries</a></blockquote></div>
+			</div>
+			
+			<div class = "middle col-md-8">
+				<div class = "well">
+					<form class = "form-inline" id = "SIGNUP_FORM">
+						<!-- name -->
+						<div class = "form-group has-feedback">
+							<label for = "NAME">Name:&nbsp;</label>
+							<input type = "text" class = "form-control" id = "NAME" name = "name"
+								data-toggle = "popover" data-trigger = "focus" data-placement = "auto left"
+								title = "Name" data-content = "At least five letters.">
+							<span id = "NAME_ICON" class = "glyphicon form-control-feedback" style = "display: none"></span>
+						</div>
+						<span id = "NAME_HINT" class = "hint"></span>
+						<hr/>
+						<!-- surname -->
+						<div class = "form-group has-feedback">
+							<label for = "SURNAME">Surname:&nbsp;</label>
+							<input type = "text" class = "form-control" id = "SURNAME" name = "surname"
+								data-toggle = "popover" data-trigger = "focus" data-placement = "auto left"
+								title = "Surame" data-content = "At least eight letters.">
+							<span id = "SURNAME_ICON" class = "glyphicon form-control-feedback" style = "display: none"></span>
+						</div>
+						<span id = "SURNAME_HINT" class = "hint"></span>
+						<hr/>
+						<!-- email address -->
+						<div class = "form-group has-feedback">
+							<label for = "EMAIL">Email:&nbsp;</label>
+							<input type = "email" class = "form-control" id = "EMAIL" name = "email"
+								data-toggle = "popover" data-trigger = "focus" data-placement = "auto left"
+								title = "Email Address" data-content = "Must be in the format of: characters@domain.xx or characters@domain.xxx">
+							
+							<span id = "EMAIL_ICON" class = "glyphicon form-control-feedback" style = "display: none"></span>
+						</div>
+						<span id = "EMAIL_HINT" class = "hint"></span>
+						<hr/>
+						<!-- date of birth -->
+						<div class = "form-group has-feedback">
+							<label for = "DATEOFBIRTH">Date of birth:&nbsp;</label>
+							<input type = "date" class = "form-control" id = "DATEOFBIRTH" name = "dateofbirth">
+							<span id = "DATEOFBIRTH_ICON" class = "glyphicon form-control-feedback" style = "display: none"></span>
+						</div>
+						<span id = "DATEOFBIRTH_HINT" class = "hint"></span>
+						<hr/>
+						<!-- gender -->
+						<div class = "form-group">
+							<label>Gender:&nbsp;</label>
+							<label class = "radio-inline">
+								<input type = "radio" name = "gender" value = "male" id = "MALE">Male
+							</label>
+							&nbsp;
+							<label class = "radio-inline">
+								<input type = "radio" name = "gender" value = "female" id = "FEMALE">Female
+							</label>
+						</div>
+						<span id = "GENDER_HINT" class = "hint"></span>
+						<hr/>
+						<!-- user agreement -->
+						<div class = "checkbox">
+							<label>
+								<input type = "checkbox" id = "CHECKAGREE" name = "termofservice">&nbsp;I agree with
+								<a href = "#" data-toggle = "modal" data-target = "#MODAL_TERMS">Term of Service</a>
+							</label>
+						</div>
+						<span id = "CHECKAGREE_HINT" class = "hint"></span>
+						<hr/>
+						<button type = "button" id = "SUBMIT" class = "btn btn-default">Submit</button>
+						<button type = "reset" id = "RESET" class = "btn btn-default">Reset</button>
+						<!-- Modal displaying term of service -->
+						<div id = "MODAL_TERMS" class = "modal fade" role = "dialog">
+							<div class = "modal-dialog">
+								<div class = "modal-content">
+									<div class = "modal-header">
+										<button type = "button" class = "close" data-dismiss = "modal">&times;</button>
+										<h4 class = "modal-title">Term of Service</h4>
+									</div>
+									<div class = "modal-body">
+										<p>Jianyang Zhang is handsome.</p>
+										<p>Jianyang Zhang is handsome.</p>
+										<p>Jianyang Zhang is handsome.</p>
+									</div>
+									<div class = "modal-footer">
+										<button type = "button" class = "btn btn-default" data-dismiss = "modal" id = "BTNAGREE">I agree</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			
+			<div class = "right col-md-2">
+            	<div id = "CART">
+                	
+                </div>
+			</div>
+		</div>
+		<footer>
+			Copyright © Jianyang Zhang All Rights Reserved<br/>
+			<div class="fb-like" data-href="https://www.facebook.com/aucklandlibraries/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+		</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang = "en">
+<head>
+	<title>About Auckland City Books</title>
+	<meta charset = "utf-8">
+	<meta name = "author" content = "Jianyang Zhang">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	<!-- MaxCDN for Bootstrap -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="persist-all-min.js"></script>
+    
+	<link rel = "stylesheet" href = "main.css" type = "text/css">
+    <script src = "books.js"></script>
+	<script src = "main.js"></script>
+	<!-- google map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhWK9Pf2tPLQD4ZvweZ7HM-WVXlcoJmYs"></script>
+	<script>
+		function initialize() {
+		    var coordinate = new google.maps.LatLng(-36.880851, 174.709545);
+		    var mapCanvas = document.getElementById('MAP');
+		    var mapOptions = {
+			center: coordinate,
+			zoom: 15,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		    }
+		    var map = new google.maps.Map(mapCanvas, mapOptions);
+		    var marker = new google.maps.Marker({
+			    position: coordinate,
+			    map: map,
+			    title: "Auckland City Books"
+		    });
+		    var contentString = 
+			"<div><h4>Auckland City Books</h4><a href = 'http://www.aucklandlibraries.govt.nz/' target = '_blank'>Visit our website</a></div>";
+
+		   var infowindow = new google.maps.InfoWindow({
+			content: contentString
+		   });
+
+		  marker.addListener('click', function() {
+		    infowindow.open(map, marker);
+		  });
+		  
+		 }
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<base href="http://dochyper.unitec.ac.nz/iwd16s2/6161/zhangj188IWD/Assignment2/">
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script>
+	(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1835688779999089";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+	<div class = "container-fluid">
+		<div class = "page-header">
+			<h1>About Us</h1>
+		</div>
+		
+		<nav class = "navbar navbar-inverse">
+			<div class = "navbar-header">
+				<button type = "button" class = "navbar-toggle" 
+					data-toggle = "collapse" data-target = "#MAIN_NAV_BAR">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+				<a class = "navbar-brand" href = "#">Auckland City Books</a>
+			</div>
+			<div class = "collapse navbar-collapse" id = "MAIN_NAV_BAR">
+				<ul class = "nav navbar-nav">
+					<li><a href = "index.html">Home</a></li>
+					<li><a href = "products.html">Products</a></li>
+					<li><a href = "membership.html">Membership</a></li>
+					<li class = "active"><a href = "#">About</a></li>
+				</ul>
+			</div>
+		</nav>
+		
+		<div class = "row">
+			<div class = "left col-md-2">
+				<div class="fb-page" data-href="https://www.facebook.com/aucklandlibraries/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/aucklandlibraries/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/aucklandlibraries/">Auckland Libraries</a></blockquote></div>
+			</div>
+			
+			<div class = "middle col-md-8">
+            	<div class="jumbotron">
+                    <p>	Auckland City Books was established in 1971 and our book shops are in every little town in New Zealand. We stock books on a wide variety of subjects including Art, Drama, Humour, Music, Photography, Biography, Sports, Business, Careers, Investing, Cooking and Food, Education, Fiction and Poetry, Travel, Health and Self-Help, Medicine, Nutrition, Psychology, Recovery and Addiction, Relationships, Gardening, Interior Design, Sustainable Living, Humanities. However, with the popularity of internet, the habits of book reading and buying are rapidly decreasing. We therefore change our strategy and want to make our books available on the World Wide Web so that we don’t have to have all the physical book shops. </p>
+                    <hr/>
+                    <address>
+                        Visit us at: 999 Great North Road, WaterView, Auckland<br/>
+                        Phon: 09-0820857<br/>
+                        Customer Service: support@aucklandcitybooks.co.nz<br/>
+                        Join us: hr@aucklandcitybooks.co.nz<br/>
+                    </address>
+                </div>
+				<div id = "MAP">
+				</div>
+			</div>
+			
+			<div class = "right col-md-2">
+            	<div id = "CART">
+                </div>
+			</div>
+		</div>
+		<footer>
+			Copyright © Jianyang Zhang All Rights Reserved<br/>
+			<div class="fb-like" data-href="https://www.facebook.com/aucklandlibraries/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+		</footer>
+	</div>
+</body>
+</html>

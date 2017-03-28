@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang = "en">
+<head>
+	<title>Products</title>
+	<meta charset = "utf-8">
+	<meta name = "author" content = "Jianyang Zhang">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	<!-- MaxCDN for Bootstrap -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="persist-all-min.js"></script>
+    
+	<link rel = "stylesheet" href = "main.css" type = "text/css">
+    <script src = "books.js"></script>
+	<script src = "main.js"></script>
+	<base href="http://dochyper.unitec.ac.nz/iwd16s2/6161/zhangj188IWD/Assignment2/">
+</head>
+<body onLoad="loadProducts('all', true);">
+	<div id="fb-root"></div>
+	<script>
+	(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1835688779999089";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
+	
+	<div class = "container-fluid">
+		<div class = "page-header">
+			<h1>Products</h1>
+		</div>
+		
+		<nav class = "navbar navbar-inverse">
+			<div class = "navbar-header">
+				<button type = "button" class = "navbar-toggle" 
+					data-toggle = "collapse" data-target = "#MAIN_NAV_BAR">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+				<a class = "navbar-brand" href = "#">Auckland City Books</a>
+			</div>
+			<div class = "collapse navbar-collapse" id = "MAIN_NAV_BAR">
+				<ul class = "nav navbar-nav">
+					<li><a href = "index.html">Home</a></li>
+					<li class="active"><a href = "#">Products</a></li>
+					<li><a href = "membership.html">Membership</a></li>
+					<li><a href = "about.html">About</a></li>
+				</ul>
+			</div>
+		</nav>
+		
+		<div class = "row">
+			<div class = "left col-md-2">
+				<div class="fb-page" data-href="https://www.facebook.com/aucklandlibraries/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/aucklandlibraries/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/aucklandlibraries/">Auckland Libraries</a></blockquote></div>
+			</div>
+			
+			<div class = "middle col-md-8">
+				<div class="dropdown" style="margin-top: 1em;">
+                  <button class="btn btn-primary btn-block dropdown-toggle" type="button" data-toggle=																									"dropdown">Browse by Category
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                  	<li><a href="javascript:loadProducts('all', true);">all</a></li>
+                    <li><a href="javascript:loadProducts('biography', true);">biography</a></li>
+                    <li><a href="javascript:loadProducts('business', true);">business</a></li>
+                    <li><a href="javascript:loadProducts('cooking and food', true);">cooking and food</a></li>
+                    <li><a href="javascript:loadProducts('travel', true);">travel</a></li>
+                  </ul>
+                </div>
+                <div id = "BOOKSHELF">
+                </div>
+                <hr/>
+                <button class="btn btn-default" type="button" id="BTN_SHOWMORE" onClick="loadProducts('all', false);">Show More</button>
+			</div>
+			
+			<div class = "right col-md-2">
+            	<div id = "CART">
+                	
+                </div>
+			</div>
+		</div>
+      </div>
+		<footer>
+			Copyright © Jianyang Zhang All Rights Reserved<br/>
+			<div class="fb-like" data-href="https://www.facebook.com/aucklandlibraries/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+		</footer>
+	
+</body>
+</html>
